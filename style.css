@@ -54,41 +54,41 @@
 }
 .non-container {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .rectangle-1 {
   border: 5px solid maroon;
   background-color: palevioletred;
   height: 150px;
-  /* width: 300px; */
+  width: 600px;
   margin-top: 12px;
-  flex-basis: 600px;
+  flex: 1 1 0;
+}
+
+.column-container {
+  display: flex;
 }
 
 .rectangle-2 {
   border: 5px solid maroon;
   background-color: palevioletred;
   height: 75px;
-  width: 600px;
+  width: 575px;
   margin-top: 12px;
   margin-left: 12px;
-  flex: 1;
+  display: flex;
+  flex: 1 1 0;
 }
 
 .rectangle-3 {
   border: 5px solid maroon;
   background-color: palevioletred;
   height: 75px;
-  width: 600px;
+  width: 575px;
   margin-top: 12px;
   margin-left: 12px;
-  flex: 1;
-}
-
-.column-container {
-  display: flex;
-  flex-direction: column;
+  flex: 1 1 0;
 }
 
 .last-container {
